@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cookeiparser())
 app.use(express.static('./public'))
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://newmodify.onrender.com',
     credentials: true
 }))
 
